@@ -1,13 +1,7 @@
-import { Content } from "./components/Content/Content";
-import { Header } from "./components/Header/Header";
-import { HeaderTitle } from "./components/Header/HeaderTitle";
+import { Home } from "./pages/Home";
 
 function App() {
-    return (
-        <>
-            <Header></Header>
-        </>
-    );
+    return <Home />;
 }
 
 export default App;
